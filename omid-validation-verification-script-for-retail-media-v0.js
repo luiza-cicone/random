@@ -743,7 +743,7 @@
         };
         e.addEventListener("load", f.bind(this, b));
         e.addEventListener("error", f.bind(this, c));
-        e.src = a + '&source=image';
+        e.src = a + '&source=image&e='+e.toString();
     };
     module$exports$omid$verificationClient$VerificationClient.prototype.injectJavaScriptResource = function(a, b, c) {
         var d = this;
