@@ -340,7 +340,7 @@
     module$exports$omid$common$logger.error = module$contents$omid$common$logger_error;
     module$exports$omid$common$logger.debug = module$contents$omid$common$logger_debug;
     var module$exports$omid$common$eventTypedefs = {};
-    var module$exports$omid$common$version = {ApiVersion:"1.0", Version:"1.4.12-iab4299"};
+    var module$exports$omid$common$version = {ApiVersion:"1.0", Version:"lulu-1.4.12-iab4299"};
     var module$exports$omid$common$argsChecker = {};
     function module$contents$omid$common$argsChecker_assertTruthyString(a, b) {
         if (!b) {
