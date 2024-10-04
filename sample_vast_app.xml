@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="4.2">
+    <Ad id="609475258823917568">
+        <InLine>
+            <AdSystem>Criteo</AdSystem>
+            <AdTitle>OnsiteVideo</AdTitle>
+            <Impression><![CDATA[https://en2l24x2n5njl.x.pipedream.net/impression]]></Impression>
+            <Error><![CDATA[https://en2l24x2n5njl.x.pipedream.net/error]]></Error>
+            <Creatives>
+                <Creative id="35934">
+                    <Linear>
+                        <Duration>00:00:17</Duration>
+                        <TrackingEvents>
+                            <Tracking event="start"><![CDATA[https://en2l24x2n5njl.x.pipedream.net/tracking/start]]></Tracking>
+                            <Tracking event="firstQuartile"><![CDATA[https://en2l24x2n5njl.x.pipedream.net/tracking/firstQuartile]]></Tracking>
+                            <Tracking event="midpoint"><![CDATA[https://en2l24x2n5njl.x.pipedream.net/tracking/midpoint]]></Tracking>
+                            <Tracking event="thirdQuartile"><![CDATA[https://en2l24x2n5njl.x.pipedream.net/tracking/thirdQuartile]]></Tracking>
+                            <Tracking event="complete"><![CDATA[https://en2l24x2n5njl.x.pipedream.net/tracking/complete]]></Tracking>
+                            <Tracking event="mute"><![CDATA[https://en2l24x2n5njl.x.pipedream.net/tracking/mute]]></Tracking>
+                            <Tracking event="unmute"><![CDATA[https://en2l24x2n5njl.x.pipedream.net/tracking/unmute]]></Tracking>
+                            <Tracking event="pause"><![CDATA[https://en2l24x2n5njl.x.pipedream.net/tracking/pause]]></Tracking>
+                            <Tracking event="resume"><![CDATA[https://en2l24x2n5njl.x.pipedream.net/tracking/resume]]></Tracking>
+                        </TrackingEvents>
+                        <MediaFiles>
+                            <MediaFile id="id" delivery="progressive" width="640" height="360" type="video/mp4" scalable="true" maintainAspectRatio="true"><![CDATA[https://github.com/luiza-cicone/random/raw/refs/heads/main/criteo_ad.mp4]]></MediaFile>
+                            <ClosedCaptionFiles>
+                                <ClosedCaptionFile type="text/vtt" language="en"><![CDATA[https://raw.githubusercontent.com/luiza-cicone/random/refs/heads/main/criteo_sub.vtt]]></ClosedCaptionFile>
+                            </ClosedCaptionFiles>
+                            <VideoClicks>
+                                <ClickTracking><![CDATA[https://en2l24x2n5njl.x.pipedream.net/tracking/click]]></ClickTracking>
+                            </VideoClicks>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+            <AdVerifications>
+                <Verification vendor="criteo.com-omid">
+                    <JavaScriptResource apiFramework="omid" browserOptional="true"><![CDATA[https://static.criteo.net/banners/js/omidjs/stable/omid-validation-verification-script-for-retail-media.js]]></JavaScriptResource>
+                    <VerificationParameters><![CDATA[{"beacons":{
+                        "omidTrackView":              "https://en2l24x2n5njl.x.pipedream.net/measurement/omidTrackView",
+                        "start":                      "https://en2l24x2n5njl.x.pipedream.net/measurement/start",
+                        "firstQuartile":              "https://en2l24x2n5njl.x.pipedream.net/measurement/firstQuartile",
+                        "midpoint":                   "https://en2l24x2n5njl.x.pipedream.net/measurement/midpoint",
+                        "thirdQuartile":              "https://en2l24x2n5njl.x.pipedream.net/measurement/thirdQuartile",
+                        "complete":                   "https://en2l24x2n5njl.x.pipedream.net/measurement/complete",
+                        "twoSecondsFiftyPercentView": "https://en2l24x2n5njl.x.pipedream.net/measurement/twoSecondsFiftyPercentView"
+                    }}]]>
+                </VerificationParameters>
+                    <TrackingEvents>
+                        <Tracking event="verificationNotExecuted"><![CDATA[https://en2l24x2n5njl.x.pipedream.net/measurement/verificationNotExecuted]]></Tracking>
+                    </TrackingEvents>
+                </Verification>
+            </AdVerifications>
+        </InLine>
+    </Ad>
+</VAST>
