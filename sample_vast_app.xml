@@ -23,10 +23,7 @@
                             <Tracking event="resume"><![CDATA[https://en2l24x2n5njl.x.pipedream.net/tracking/resume]]></Tracking>
                         </TrackingEvents>
                         <MediaFiles>
-                            <MediaFile id="id" delivery="progressive" width="640" height="360" type="video/mp4" scalable="true" maintainAspectRatio="true"><![CDATA[https://github.com/luiza-cicone/random/raw/refs/heads/main/criteo_ad.mp4]]></MediaFile>
-                            <ClosedCaptionFiles>
-                                <ClosedCaptionFile type="text/vtt" language="en"><![CDATA[https://raw.githubusercontent.com/luiza-cicone/random/refs/heads/main/criteo_sub.vtt]]></ClosedCaptionFile>
-                            </ClosedCaptionFiles>
+                            <MediaFile id="id" delivery="progressive" width="640" height="360" type="video/mp4" scalable="true" maintainAspectRatio="true"><![CDATA[https://github.com/luiza-cicone/random/raw/refs/heads/main/criteo_ad_subtitled.mp4]]></MediaFile>
                             <VideoClicks>
                                 <ClickTracking><![CDATA[https://en2l24x2n5njl.x.pipedream.net/tracking/click]]></ClickTracking>
                             </VideoClicks>
